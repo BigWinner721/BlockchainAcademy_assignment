@@ -22,4 +22,4 @@ main()
     process.exit(1);
   });
 
-// npx hardhat run --network tbsc ./scripts/setversion.js
+// npx hardhat run --network tbsc ./scripts/3_setversion.js

@@ -13,6 +13,6 @@ async function main() {
 
 main();
 
-//npx hardhat run --network tbsc scripts/updeploy.js
+//npx hardhat run --network tbsc scripts/1_updeploy.js
 
 //npx hardhat verify --network tbsc "0xf3d414635b8EF91C86A5dD918841871C050ff0e9"

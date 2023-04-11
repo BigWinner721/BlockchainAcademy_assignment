@@ -10,7 +10,7 @@ async function main() {
 
 main();
 
-//npx hardhat run --network tbsc scripts/upgrade.js
+//npx hardhat run --network tbsc scripts/2_upgrade.js
 
 //验证代理合约的地址
 //npx hardhat verify --network tbsc "0xf3d414635b8EF91C86A5dD918841871C050ff0e9"
