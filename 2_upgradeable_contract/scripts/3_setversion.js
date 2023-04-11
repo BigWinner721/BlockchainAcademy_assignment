@@ -1,14 +1,14 @@
 const { ethers } = require("hardhat");
 
 // 设置proxy合约地址
-const ContractAddress = "0xf3d414635b8EF91C86A5dD918841871C050ff0e9";
+const ContractAddress = "";//代理地址
 
 async function main() {
-  // 获取已部署的空投合约实例
+  // 获取已部署的合约实例
   const ArtistMe_V2 = await ethers.getContractFactory("ArtistMe_V2");
   const am2Contract = await ArtistMe_V2.attach(ContractAddress);
 
-  // 批量空投
+  // 调用setVersion函数
 
   const setvTx = await am2Contract.setVersion(33);
   await setvTx.wait();
